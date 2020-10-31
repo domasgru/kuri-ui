@@ -38,10 +38,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$primary: #511fdc;
-$primary-400: #4817cf;
-$primary-disabled: rgba(#511fdc, 0.6);
-$light: white;
+@import '../../scss/variables.scss';
+
 .button {
   padding: 16px 24px;
   color: white;
